@@ -45,8 +45,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &trans  &trans
+&kp ES_LBRC       &kp ES_LABK            &kp ES_IEXL    &kp ES_EXLM       &kp ES_RABK            &kp ES_RBRC                          &trans       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK &trans
+&kp ES_LCBR       &kp ES_LPRN            &kp ES_IQUE    &kp ES_QUES       &kp ES_RPRN            &kp ES_RCBR                          &kp ES_EQL   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS     &trans
 &kp LSHFT   &trans        &trans        &trans        &trans        &trans          &trans    &trans    &trans    &trans     &trans  &trans
                                         &kp LGUI      &trans        &kp SPACE       &kp RET   &trans    &kp RALT
             >;
@@ -60,8 +60,8 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT     &kp HASH  &kp DLLR  &kp PRCNT          &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LCTRL  &kp F1    &kp RG(M)  &trans    &trans    &kp LC(LA(DEL))    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LC(LA(DEL))   &kp PSCRN  &kp RG(M)   &kp RG(E)   &kp RG(R)  &trans                    &kp PG_UP  &kp BACKSPACE  &kp UP    &kp DEL    &kp HOME  &trans
+&trans            &kp LC(Z)  &kp LC(X)   &kp LC(C)   &kp LC(V)  &trans                    &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END   &trans
 &kp LSHFT  &trans    &trans     &trans    &trans    &trans             &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                                 &kp LGUI  &trans    &kp SPACE          &kp RET    &trans     &kp RALT
             >;
@@ -69,7 +69,7 @@
 
         Adjust {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                               &none       &none       &none       &none         &none  &none
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
