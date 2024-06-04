@@ -11,14 +11,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        Adjust {
-            bindings = <&mo 3>;
-            key-positions = <39 38>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -81,6 +74,15 @@
 &trans           &trans        &trans        &trans        &trans        &trans          &trans  &trans     &trans    &trans   &trans        &trans
                                              &kp LGUI      &kp RET       &mo 1           &mo 2   &kp SPACE  &kp RALT
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        Adjust_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
