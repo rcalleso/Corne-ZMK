@@ -11,7 +11,14 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <24 35>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
