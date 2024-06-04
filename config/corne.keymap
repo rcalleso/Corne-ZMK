@@ -18,6 +18,11 @@
             bindings = <&kp CAPSLOCK>;
             key-positions = <24 35>;
         };
+
+        Soft_off {
+            bindings = <&soft_off>;
+            key-positions = <11 0 12 23>;
+        };
     };
 
     keymap {
