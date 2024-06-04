@@ -41,13 +41,13 @@
             // -----------------------------------------------------------------------------------------
             // |  [   |  <  |  ¡  |  !  |  >  |  ]  |   |  =  |  7  |  8  |  9  |  *  | BKSP |
             // |  {   |  (  |  ¿  |  ?  |  )  |  }  |   |  0  |  4  |  5  |  6  |  +  |      |
-            // | SHFT |     |     |     |     |     |   |  /  |  1  |  2  |  3  |  -  |      |
+            // | SHFT |     |     | ESC |     |     |   |  /  |  1  |  2  |  3  |  -  |      |
             //                    | RALT| ENT | LWR |   | RSE | SPC  | CRTL|
 
             bindings = <
 &kp ES_LBRC   &kp ES_LABK   &kp ES_IEXL   &kp ES_EXLM   &kp ES_RABK   &kp ES_RBRC      &kp ES_EQL        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK &trans
 &kp ES_LCBR   &kp ES_LPRN   &kp ES_IQUE   &kp ES_QUES   &kp ES_RPRN   &kp ES_RCBR      &kp KP_NUMBER_0   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS     &trans
-&kp LSHFT     &trans        &trans        &trans        &trans        &trans           &kp FSLH          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS       &trans
+&kp LSHFT     &trans        &kp ESC       &trans        &trans        &trans           &kp FSLH          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp MINUS       &trans
                                           &trans        &trans        &mo 1            &mo 2             &trans           &trans
             >;
         };
